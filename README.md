@@ -46,5 +46,7 @@ The facade controller call the db facade function to call the database model
 handler > Controller Facade > DB Facade > dynamoose
 
 ex:
+
 if call create product handler, the workflow will be:
+
 product/create > template/create > databaseFacades/ProductFacade > databaseFacades/DBFacade > dynamoose (using databaseSchema/ProductSchema)
