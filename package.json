@@ -1,0 +1,23 @@
+{
+  "name": "sample-srvlss",
+  "version": "1.0.0",
+  "description": "Sample Serverless project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "sls offline start",
+    "slsdebug": "SLS_DEBUG=* sls offline start",
+    "dynamodb:install": "sls dynamodb install",
+    "dynamodb:start": "sls dynamodb start"
+  },
+  "author": "Gustavo Apolinario <gustavo.guss@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "serverless-dynamodb-local": "^0.2.39",
+    "serverless-offline": "^6.4.0"
+  },
+  "dependencies": {
+    "dynamoose": "^2.2.1",
+    "uuid": "^8.2.0"
+  }
+}
