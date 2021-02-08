@@ -17,7 +17,7 @@
     "serverless-offline": "^6.4.0"
   },
   "dependencies": {
-    "dynamoose": "^2.2.1",
+    "dynamoose": "^2.7.0",
     "uuid": "^8.2.0"
   }
 }
