@@ -13,7 +13,7 @@
   "author": "Gustavo Apolinario <gustavo.guss@gmail.com>",
   "license": "ISC",
   "devDependencies": {
-    "serverless-dynamodb-local": "^0.2.39",
+    "serverless-dynamodb-local": "^1.0.2",
     "serverless-offline": "^6.4.0"
   },
   "dependencies": {
